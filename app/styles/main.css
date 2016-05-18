@@ -1,0 +1,38 @@
+body {
+  padding: 20px;
+  height: 600px;
+  width: 300px;
+  background-color: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#999999));
+  background: -webkit-linear-gradient(top, #ffffff, #999999);
+  background:    -moz-linear-gradient(top, #ffffff, #999999);
+  background:      -o-linear-gradient(top, #ffffff, #999999);
+  background:         linear-gradient(to bottom, #ffffff, #999999);
+
+}
+.button{
+	margin-top: 5px;
+	background-color: #009999; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    
+}
+.button:active {
+  background-color: #006666;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #009999;
+    font-size: 16px;
+    width: 200px;
+    height: 18px;
+}
+
